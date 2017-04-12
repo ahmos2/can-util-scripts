@@ -1,4 +1,4 @@
-#License
+# License
 
 Copyright (c) 2014,2015, Martin Sundhaug
 All rights reserved.
@@ -27,22 +27,22 @@ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#Scripts
+# Scripts
 
-#####get-all-function-codes.py
+##### get-all-function-codes.py
 Get all function-codes active on the canbus
 
-#####get-all-ids.py
+##### get-all-ids.py
 Get all node-ids active on the canbus
 
-#####mkvcan.sh
+##### mkvcan.sh
 Configure a virtual CAN (vcan)-interface
 
-#####set-driver-mcp2515a.sh
+##### set-driver-mcp2515a.sh
 Unload mcp251x, load mcp2515a, configure can0 at 125000 baud and bring it up
 
-#####set-driver-mcp251x.sh
+##### set-driver-mcp251x.sh
 Unlad mcp2515a, load mcp251x, configure can0 at 125000 baud and bring it up
 
-#####start-can0-cap.sh
+##### start-can0-cap.sh
 Start tshark capturing frames on can0, saving to ~/capture/can0-$(date +%s).pcap
